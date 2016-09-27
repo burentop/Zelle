@@ -9,6 +9,6 @@ def main():
     for i in range(10):
         x = 3.9 * x * (1 - x)
         y = 3.9 * y * (1 - y)
-        print(x,        y)
+        print(x + "     " + y)
 
 main()
